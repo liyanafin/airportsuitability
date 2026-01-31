@@ -1,0 +1,128 @@
+{"Time":"2026-01-31T02:30:09.585106+02:00","Action":"start","Package":"github.com/liyanafin/airportsuitability/tests"}
+{"Time":"2026-01-31T02:30:09.849926+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits"}
+{"Time":"2026-01-31T02:30:09.850039+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits","Output":"=== RUN   TestAircraftLimits\n"}
+{"Time":"2026-01-31T02:30:09.850101+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_valid_type_code"}
+{"Time":"2026-01-31T02:30:09.850119+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_valid_type_code","Output":"=== RUN   TestAircraftLimits/aircraft_has_valid_type_code\n"}
+{"Time":"2026-01-31T02:30:09.850131+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_crosswind_limit"}
+{"Time":"2026-01-31T02:30:09.850141+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_crosswind_limit","Output":"=== RUN   TestAircraftLimits/aircraft_has_crosswind_limit\n"}
+{"Time":"2026-01-31T02:30:09.850152+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_minimum_runway_length"}
+{"Time":"2026-01-31T02:30:09.850167+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_minimum_runway_length","Output":"=== RUN   TestAircraftLimits/aircraft_has_minimum_runway_length\n"}
+{"Time":"2026-01-31T02:30:09.850189+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/VFR_aircraft_has_visibility_minimums"}
+{"Time":"2026-01-31T02:30:09.850199+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/VFR_aircraft_has_visibility_minimums","Output":"=== RUN   TestAircraftLimits/VFR_aircraft_has_visibility_minimums\n"}
+{"Time":"2026-01-31T02:30:09.850217+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits","Output":"--- PASS: TestAircraftLimits (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850254+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_valid_type_code","Output":"    --- PASS: TestAircraftLimits/aircraft_has_valid_type_code (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850268+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_valid_type_code","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850281+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_crosswind_limit","Output":"    --- PASS: TestAircraftLimits/aircraft_has_crosswind_limit (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850292+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_crosswind_limit","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850302+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_minimum_runway_length","Output":"    --- PASS: TestAircraftLimits/aircraft_has_minimum_runway_length (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850317+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/aircraft_has_minimum_runway_length","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850343+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/VFR_aircraft_has_visibility_minimums","Output":"    --- PASS: TestAircraftLimits/VFR_aircraft_has_visibility_minimums (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850354+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits/VFR_aircraft_has_visibility_minimums","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850438+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAircraftLimits","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850474+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics"}
+{"Time":"2026-01-31T02:30:09.850489+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics","Output":"=== RUN   TestAirport_Basics\n"}
+{"Time":"2026-01-31T02:30:09.850502+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_ICAO_code"}
+{"Time":"2026-01-31T02:30:09.850513+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_ICAO_code","Output":"=== RUN   TestAirport_Basics/airport_has_ICAO_code\n"}
+{"Time":"2026-01-31T02:30:09.850534+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_name"}
+{"Time":"2026-01-31T02:30:09.850546+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_name","Output":"=== RUN   TestAirport_Basics/airport_has_name\n"}
+{"Time":"2026-01-31T02:30:09.850579+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_elevation"}
+{"Time":"2026-01-31T02:30:09.850591+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_elevation","Output":"=== RUN   TestAirport_Basics/airport_has_elevation\n"}
+{"Time":"2026-01-31T02:30:09.850602+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_runways"}
+{"Time":"2026-01-31T02:30:09.850611+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_runways","Output":"=== RUN   TestAirport_Basics/airport_has_runways\n"}
+{"Time":"2026-01-31T02:30:09.850622+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics","Output":"--- PASS: TestAirport_Basics (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850632+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_ICAO_code","Output":"    --- PASS: TestAirport_Basics/airport_has_ICAO_code (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850642+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_ICAO_code","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850651+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_name","Output":"    --- PASS: TestAirport_Basics/airport_has_name (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850661+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_name","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.85067+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_elevation","Output":"    --- PASS: TestAirport_Basics/airport_has_elevation (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850679+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_elevation","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850688+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_runways","Output":"    --- PASS: TestAirport_Basics/airport_has_runways (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850697+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics/airport_has_runways","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850706+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestAirport_Basics","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850762+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics"}
+{"Time":"2026-01-31T02:30:09.850775+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics","Output":"=== RUN   TestWeatherBasics\n"}
+{"Time":"2026-01-31T02:30:09.850785+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_raw_METAR"}
+{"Time":"2026-01-31T02:30:09.850799+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_raw_METAR","Output":"=== RUN   TestWeatherBasics/has_raw_METAR\n"}
+{"Time":"2026-01-31T02:30:09.850809+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_direction"}
+{"Time":"2026-01-31T02:30:09.850819+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_direction","Output":"=== RUN   TestWeatherBasics/has_wind_direction\n"}
+{"Time":"2026-01-31T02:30:09.850828+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_speed_and_gusts"}
+{"Time":"2026-01-31T02:30:09.850836+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_speed_and_gusts","Output":"=== RUN   TestWeatherBasics/has_wind_speed_and_gusts\n"}
+{"Time":"2026-01-31T02:30:09.850846+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics","Output":"--- PASS: TestWeatherBasics (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850857+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_raw_METAR","Output":"    --- PASS: TestWeatherBasics/has_raw_METAR (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850872+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_raw_METAR","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850886+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_direction","Output":"    --- PASS: TestWeatherBasics/has_wind_direction (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850895+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_direction","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850904+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_speed_and_gusts","Output":"    --- PASS: TestWeatherBasics/has_wind_speed_and_gusts (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.850913+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics/has_wind_speed_and_gusts","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.850922+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWeatherBasics","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.85093+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents"}
+{"Time":"2026-01-31T02:30:09.850938+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents","Output":"=== RUN   TestWindComponents\n"}
+{"Time":"2026-01-31T02:30:09.850947+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_headwind"}
+{"Time":"2026-01-31T02:30:09.850968+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_headwind","Output":"=== RUN   TestWindComponents/direct_headwind\n"}
+{"Time":"2026-01-31T02:30:09.850977+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_tailwind"}
+{"Time":"2026-01-31T02:30:09.851011+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_tailwind","Output":"=== RUN   TestWindComponents/direct_tailwind\n"}
+{"Time":"2026-01-31T02:30:09.851034+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_right"}
+{"Time":"2026-01-31T02:30:09.851043+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_right","Output":"=== RUN   TestWindComponents/direct_crosswind_from_right\n"}
+{"Time":"2026-01-31T02:30:09.851053+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_left"}
+{"Time":"2026-01-31T02:30:09.851061+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_left","Output":"=== RUN   TestWindComponents/direct_crosswind_from_left\n"}
+{"Time":"2026-01-31T02:30:09.85107+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_headwind"}
+{"Time":"2026-01-31T02:30:09.851079+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_headwind","Output":"=== RUN   TestWindComponents/quartering_headwind\n"}
+{"Time":"2026-01-31T02:30:09.851095+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_tailwind"}
+{"Time":"2026-01-31T02:30:09.851105+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_tailwind","Output":"=== RUN   TestWindComponents/quartering_tailwind\n"}
+{"Time":"2026-01-31T02:30:09.851115+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents","Output":"--- PASS: TestWindComponents (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851125+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_headwind","Output":"    --- PASS: TestWindComponents/direct_headwind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851135+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_headwind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851144+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_tailwind","Output":"    --- PASS: TestWindComponents/direct_tailwind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851153+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_tailwind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851162+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_right","Output":"    --- PASS: TestWindComponents/direct_crosswind_from_right (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851172+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_right","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.85118+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_left","Output":"    --- PASS: TestWindComponents/direct_crosswind_from_left (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.85119+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/direct_crosswind_from_left","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851199+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_headwind","Output":"    --- PASS: TestWindComponents/quartering_headwind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851209+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_headwind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851262+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_tailwind","Output":"    --- PASS: TestWindComponents/quartering_tailwind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851272+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents/quartering_tailwind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851281+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestWindComponents","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851289+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind"}
+{"Time":"2026-01-31T02:30:09.851298+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind","Output":"=== RUN   TestVariableWind\n"}
+{"Time":"2026-01-31T02:30:09.851307+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind/variable_wind_reports_as_crosswind_for_safety"}
+{"Time":"2026-01-31T02:30:09.851315+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind/variable_wind_reports_as_crosswind_for_safety","Output":"=== RUN   TestVariableWind/variable_wind_reports_as_crosswind_for_safety\n"}
+{"Time":"2026-01-31T02:30:09.851325+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind","Output":"--- PASS: TestVariableWind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851335+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind/variable_wind_reports_as_crosswind_for_safety","Output":"    --- PASS: TestVariableWind/variable_wind_reports_as_crosswind_for_safety (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851345+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind/variable_wind_reports_as_crosswind_for_safety","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851353+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestVariableWind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851364+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestCalmWind"}
+{"Time":"2026-01-31T02:30:09.851377+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestCalmWind","Output":"=== RUN   TestCalmWind\n"}
+{"Time":"2026-01-31T02:30:09.851387+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestCalmWind","Output":"--- PASS: TestCalmWind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851396+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestCalmWind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851405+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR"}
+{"Time":"2026-01-31T02:30:09.851414+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR","Output":"=== RUN   TestParseMETAR\n"}
+{"Time":"2026-01-31T02:30:09.85143+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/standard_METAR"}
+{"Time":"2026-01-31T02:30:09.851439+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/standard_METAR","Output":"=== RUN   TestParseMETAR/standard_METAR\n"}
+{"Time":"2026-01-31T02:30:09.851452+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/METAR_no_gusts"}
+{"Time":"2026-01-31T02:30:09.851461+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/METAR_no_gusts","Output":"=== RUN   TestParseMETAR/METAR_no_gusts\n"}
+{"Time":"2026-01-31T02:30:09.85147+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/variable_wind"}
+{"Time":"2026-01-31T02:30:09.851504+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/variable_wind","Output":"=== RUN   TestParseMETAR/variable_wind\n"}
+{"Time":"2026-01-31T02:30:09.851513+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/calm_wind"}
+{"Time":"2026-01-31T02:30:09.851522+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/calm_wind","Output":"=== RUN   TestParseMETAR/calm_wind\n"}
+{"Time":"2026-01-31T02:30:09.85153+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/reduced_visibility"}
+{"Time":"2026-01-31T02:30:09.851539+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/reduced_visibility","Output":"=== RUN   TestParseMETAR/reduced_visibility\n"}
+{"Time":"2026-01-31T02:30:09.851548+02:00","Action":"run","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/fractional_visibility"}
+{"Time":"2026-01-31T02:30:09.851556+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/fractional_visibility","Output":"=== RUN   TestParseMETAR/fractional_visibility\n"}
+{"Time":"2026-01-31T02:30:09.851566+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR","Output":"--- PASS: TestParseMETAR (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851576+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/standard_METAR","Output":"    --- PASS: TestParseMETAR/standard_METAR (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851585+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/standard_METAR","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851594+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/METAR_no_gusts","Output":"    --- PASS: TestParseMETAR/METAR_no_gusts (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851603+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/METAR_no_gusts","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851612+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/variable_wind","Output":"    --- PASS: TestParseMETAR/variable_wind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851621+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/variable_wind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851629+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/calm_wind","Output":"    --- PASS: TestParseMETAR/calm_wind (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851642+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/calm_wind","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.85165+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/reduced_visibility","Output":"    --- PASS: TestParseMETAR/reduced_visibility (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851659+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/reduced_visibility","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851672+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/fractional_visibility","Output":"    --- PASS: TestParseMETAR/fractional_visibility (0.00s)\n"}
+{"Time":"2026-01-31T02:30:09.851681+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR/fractional_visibility","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.851689+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Test":"TestParseMETAR","Elapsed":0}
+{"Time":"2026-01-31T02:30:09.85172+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Output":"PASS\n"}
+{"Time":"2026-01-31T02:30:09.851827+02:00","Action":"output","Package":"github.com/liyanafin/airportsuitability/tests","Output":"ok  \tgithub.com/liyanafin/airportsuitability/tests\t0.266s\n"}
+{"Time":"2026-01-31T02:30:09.851888+02:00","Action":"pass","Package":"github.com/liyanafin/airportsuitability/tests","Elapsed":0.267}

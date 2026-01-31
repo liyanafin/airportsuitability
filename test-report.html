@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Go Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; }
+        h1 { color: #2c3e50; }
+        table { border-collapse: collapse; width: 100%; margin-top: 1em; }
+        th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+        th { background: #f4f4f4; }
+        tr.pass { background: #e8f5e9; }
+        tr.fail { background: #ffebee; }
+        .ok { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Go Test Report</h1>
+    <div id="summary"></div>
+    <table id="test-table">
+        <thead>
+            <tr>
+                <th>Test Name</th>
+                <th>Result</th>
+                <th>Time (s)</th>
+                <th>Output</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script>
+    fetch('test-report.json')
+      .then(response => response.text())
+      .then(text => {
+        const lines = text.split('\n').filter(Boolean);
+        let passCount = 0, failCount = 0;
+        let tbody = document.querySelector('#test-table tbody');
+        lines.forEach(line => {
+          let event = JSON.parse(line);
+          if (event.Action === 'pass' || event.Action === 'fail') {
+            let tr = document.createElement('tr');
+            tr.className = event.Action;
+            let name = event.Test || event.Package || '';
+            let result = event.Action === 'pass' ? '<span class="ok">PASS</span>' : '<span class="fail">FAIL</span>';
+            if (event.Action === 'pass') passCount++;
+            if (event.Action === 'fail') failCount++;
+            tr.innerHTML = `<td>${name}</td><td>${result}</td><td>${event.Elapsed ? event.Elapsed.toFixed(2) : ''}</td><td>${event.Output ? event.Output.replace(/\n/g, '<br>') : ''}</td>`;
+            tbody.appendChild(tr);
+          }
+        });
+        document.getElementById('summary').innerHTML = `<b>Passed:</b> ${passCount} &nbsp; <b>Failed:</b> ${failCount}`;
+      });
+    </script>
+</body>
+</html>

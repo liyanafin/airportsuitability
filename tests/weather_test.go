@@ -7,7 +7,7 @@ import (
 )
 
 func TestWeatherBasics(t *testing.T) {
-	weather := Weather{
+	weather := domain.Weather{
 		RawMETAR:      "KJFK 261456Z 09025G35KT 10SM FEW025 BKN050 12/05 A2992",
 		WindDirection: 90,
 		WindSpeedKt:   25,
@@ -99,7 +99,7 @@ func TestWindComponents(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			weather := Weather{
+			weather := domain.Weather{
 				WindDirection: tt.windDirection,
 				WindSpeedKt:   tt.windSpeed,
 			}
@@ -118,7 +118,7 @@ func TestWindComponents(t *testing.T) {
 }
 
 func TestVariableWind(t *testing.T) {
-	weather := Weather{
+	weather := domain.Weather{
 		WindDirection: 0, // Variable
 		WindSpeedKt:   5,
 		VariableWind:  true,
@@ -137,7 +137,7 @@ func TestVariableWind(t *testing.T) {
 }
 
 func TestCalmWind(t *testing.T) {
-	weather := Weather{
+	weather := domain.Weather{
 		WindDirection: 0,
 		WindSpeedKt:   0,
 		CalmWind:      true,
@@ -221,7 +221,7 @@ func TestParseMETAR(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			weather, err := ParseMETAR(tt.metar)
+			weather, err := domain.ParseMETAR(tt.metar)
 			if err != nil {
 				t.Fatalf("failed to parse METAR: %v", err)
 			}
